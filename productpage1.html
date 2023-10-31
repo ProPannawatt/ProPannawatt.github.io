@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tookdee Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header-containerA">
+        <div class="header-containerA-item--st">
+            <div class="header__button-member--st">
+                <a class="btn btn-info" href="login.html" role="button">Login</a>
+                <a class="btn btn-info" href="#" role="button">Register</a>
+            </div>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid nav-area">
+                    <a class="navbar-brand" href="index.html"><img src="logo.svg" style="height: 30px; width:30px"><b>
+                            Tookdee</b></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Category
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-dropdowns-title--font"><b>อุปกรณไอที<b></li>
+                                    <li><a class="dropdown-item" href="product1.html">CPU</a></li>
+                                    <li><a class="dropdown-item" href="product2.html">GPU</a></li>
+                                    <li><a class="dropdown-item" href="product4.html">Mainboard</a></li>
+                                    <li><a class="dropdown-item" href="product5.html">Notebook</a></li>
+                                    <li><a class="dropdown-item" href="product6.html">Ram</a></li>
+                                    <li class="nav-dropdowns-title--font"><b>Printer<b></li>
+                                    <li><a class="dropdown-item" href="product3.html">3D Printer</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="productpage1.html">All Products</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About me</a>
+                            </li>
+                        </ul>
+                        <div class="header-containerA">
+                            <a href="cart.html" width="100px" height="100px" class="nav__button-cart--shape"><img
+                                    src="source/nav-cart.svg" width="30px" height="30px"></a>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="body-containerG--area">
+        <div class="body-containerG-choose">
+            <label for="productcategory">Product type:</label>
+                <select id="productcategory" name="type">
+                    <option value="Notebook">Notebook</option>
+                    <option value="orange">CPU</option>
+                    <option value="pineapple">GPU</option>
+                    <option value="banana">Mainboard</option>
+                    <option value="banana">Printer</option>
+                    <option value="banana">Ram</option>
+                </select>
+        </div>
+    </div>
+
+
+    <div class="body-containerG--area">
+        <div class="body-containerG-products">
+            <img src="source/PD-CPU01-02-NoBG.png" alt="product1" width="120px" height="120px">
+            <h2>INTEL CORE I9 14900KF</h2>
+            <p>Price : 24,700 Baht</p>
+            <a class="btn btn-success" href="product1.html" role="button">Details</a><span> <a class="btn btn-warning" href="#" role="button">Add Cart</a></span>
+        </div>
+        <div class="body-containerG-products">
+            <img src="source/PD-GPU01-01.png" alt="product 2" width="120px" height="120px">
+            <h2>GEFORCE RTX 3060</h2>
+            <p>Price : 10,900 Baht</p>
+            <a class="btn btn-success" href="product2.html" role="button">Details</a><span> <a class="btn btn-warning" href="#" role="button">Add Cart</a></span>
+        </div>
+        <div class="body-containerG-products">
+            <img src="source/PD-K1-02.png" alt="product 3" width="120px" height="120px">
+            <h2>3D Printer: K1 Series</h2>
+            <p>Price : 21,000 Baht</p>
+            <a class="btn btn-success" href="product3.html" role="button">Details</a><span> <a class="btn btn-warning" href="#" role="button">Add Cart</a></span>
+        </div>
+    </div>
+
+    <nav aria-label="nav-paginate">
+        <div class="body__nav-paginate">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="productpage1.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="productpage2.html">2</a></li>
+                <li class="page-item"><a class="page-link" href="productpage2.html">Next</a></li>
+            </ul>
+        </div>
+      </nav>
+
+
+
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                        crossorigin="anonymous">
+                        </script>
+</body>
+
+</html>

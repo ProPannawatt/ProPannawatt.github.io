@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tookdee Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header-containerA">
+        <div class="header-containerA-item--st">
+            <div class="header__button-member--st">
+                <a class="btn btn-info" href="login.html" role="button">Login</a>
+                <a class="btn btn-info" href="#" role="button">Register</a>
+            </div>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid nav-area">
+                    <a class="navbar-brand" href="index.html"><img src="logo.svg" style="height: 30px; width:30px"><b>
+                            Tookdee</b></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Category
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-dropdowns-title--font"><b>อุปกรณไอที<b></li>
+                                    <li><a class="dropdown-item" href="product1.html">CPU</a></li>
+                                    <li><a class="dropdown-item" href="product2.html">GPU</a></li>
+                                    <li><a class="dropdown-item" href="product4.html">Mainboard</a></li>
+                                    <li><a class="dropdown-item" href="product5.html">Notebook</a></li>
+                                    <li><a class="dropdown-item" href="product6.html">Ram</a></li>
+                                    <li class="nav-dropdowns-title--font"><b>Printer<b></li>
+                                    <li><a class="dropdown-item" href="product3.html">3D Printer</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="productpage1.html">All Products</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About me</a>
+                            </li>
+                        </ul>
+                        <div class="header-containerA">
+                            <a href="cart.html" width="100px" height="100px" class="nav__button-cart--shape"><img
+                                    src="source/nav-cart.svg" width="30px" height="30px"></a>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="body-containerH--st">
+        <div class="body-containerH--area body-containerH-mainPD--occupied">
+            <div class="mainPD--area">
+                <div class="mainPD-title" style="font-size: 30px;">
+                    GEFORCE RTX 3060
+                </div>
+                <div class="mainPD-img">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="source/PD-GPU01-01.png" class="d-block w-100" alt="GEFORCE RTX 3060" width="300px"
+                                    height="300px">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+                <div class="mainPD-cond">
+                    <div class="mainPD-cond--area">
+                        <div class="mainPD-cond-rating mainPD-cond--occupied">คะแนน :
+                            <span>
+                                <img src="source/icon-star.png">
+                                <img src="source/icon-star.png">
+                                <img src="source/icon-star.png">
+                                <img src="source/icon-star.png">
+                                (4.0)
+                            </span>
+                        </div>
+                        <div class="mainPD-cond-price mainPD-cond--occupied"
+                            style="background-color: rgba(255, 166, 0, 0.667);">
+                            <p style="font-size: 20px">ราคา :
+                                <span>
+                                    <del style="font-size: 30px;">10,900</del>
+                                    <span style="font-size: 45px; color: red;">8,900</span>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="mainPD-cond-installmentterm mainPD-cond--occupied">
+                            <p class="d-inline-flex gap-1"><span style="font-size: 20px;">การผ่อนชำระ</span>
+                                <a class="btn btn-link" data-bs-toggle="collapse" href="#collapseExample1" role="button"
+                                    aria-expanded="false" aria-controls="collapseExample">
+                                    ดูรายละเอียดเพิ่มเติม
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapseExample1">
+                                <div class="card card-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="productInstallment" id="flexRadioDefault1" checked>
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                          0% นาน 3 เดือน : 2,967 บาท
+                                        </label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="productInstallment" id="flexRadioDefault2">
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                            0% นาน 6 เดือน : 1,484 บาท
+                                        </label>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mainPD-cond-delivery mainPD-cond--occupied">
+                            <p class="d-inline-flex gap-1"><span style="font-size: 20px;">การจัดส่ง</span>
+                                <a class="btn btn-link" data-bs-toggle="collapse" href="#collapseExample2" role="button"
+                                    aria-expanded="false" aria-controls="collapseExample">
+                                    ดูรายละเอียดเพิ่มเติม
+                                </a>
+                            </p>
+                            <div class="collapse" id="collapseExample2">
+                                <div class="card card-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="productDelivery" id="flexRadioDefault3" checked>
+                                        <label class="form-check-label" for="flexRadioDefault3">
+                                            จัดส่งโดยปกติ (+ 0 ฿)
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="productDelivery" id="flexRadioDefault4">
+                                        <label class="form-check-label" for="flexRadioDefault4">
+                                            จัดส่งด่วนพิเศษ (+ 20 ฿)
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="productDelivery" id="flexRadioDefault5">
+                                        <label class="form-check-label" for="flexRadioDefault5">
+                                            จัดส่งสินค้าขนาดใหญ่พิเศษ (+ 100 ฿)
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mainPD-cond-quantity mainPD-cond--occupied">
+                            <div class="mainPD-cond-volume--area">
+                                <div class="mainPD-cond-volume--style mainPD-cond-volume--marginR1">จำนวนสินค้า</div>
+                                <div class="mainPD-cond-volume--style mainPD-cond-volume--PaddingRL1 btn btn-outline-primary">-</div>
+                                <div class="mainPD-cond-volume--style">1</div>
+                                <div class="mainPD-cond-volume--style mainPD-cond-volume--PaddingRL1 btn btn-outline-primary">+</div>
+                                <div class="mainPD-cond-volume--style mainPD-cond-volume--marginL1">มีสินค้าจำนวนทั้งหมด 50 ชิ้น</div>
+                            </div>
+
+                        </div>
+                        <div class="mainPD-cond-action mainPD-cond--occupied">
+                            <div class="mainPD-cond-action mainPD-cond-respond--area">
+                                <button type="button" class="btn btn-primary">เพิ่มสินค้าในตระกร้า</button>
+                                <button type="button" class="btn btn-primary">สั่งซื้อสินค้า</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mainPD-share">
+                    <div><img src="source/icon-fb.svg" width="50px" height="50px"></div>
+                    <div><img src="source/icon-twitter.svg" width="50px" height="50px"></div>
+                    <div><img src="source/icon-ig.svg" width="50px" height="50px"></div>
+                </div>
+            </div>
+        </div>
+        <div class="body-containerH--area body-containerH-shopDT--occupied">
+            <div class="shopDT-area">
+                <div class="shopDT-title" style="font-size: 30px;">รองรับการชำระเงิน
+                </div>
+                <hr>
+                <div class="shopDT-details">
+                    <div class="shopDT-details--fontstyle">VISA
+                    </div>
+                    <div class="shopDT-details--fontstyle">MASTERCARD
+                    </div>
+                    <div class="shopDT-details--fontstyle">UNIONPAY
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body-containerH--area body-containerH-shortPD--occupied">
+            <p style="font-size: 30px;">ข้อมูลจำเพาะ</p>
+            <hr>
+            <p>หมวดหมู่สินค้า: อุปกรณ์ไอที</p>
+            <p>ยี่ห้อสินค้า: GEFORCE</p>
+            <p>รหัสสินค้า: SKU-G002</p>
+            <p>barcode: 5246782461382</p>
+        </div>
+        <div class="body-containerH--area body-containerH-fullPD--occupied">
+            <div class="fullPD-title" style="font-size: 30px;">รายละเอียดสินค้า
+            </div>
+            <hr>
+            <div class="fullPD-detail--area">
+                <div class="fullPD-detailA">
+                    <h4><b><u>Model</u></b></h4>
+                    <p>Model : GEFORCE RTX 3060</p>
+                    <p>Brand : NVIDIA</p>
+                    <h4><b><u>Specification</u></b></h4>
+                    <p>Slot : 1 x PCIe 4.0 x16 Slot</p>
+                    <p>ความเร็ว RAM : 15 Gbps
+                    <p>ขนาดความจุ RAM : 12 GB</p>
+                    <p>ชนิดของ RAM : GDDR6</p>
+                    <p>CUDA Core : 3584</p>
+                </div>
+                <div class="fullPD-detailB">
+                    <h4><b><u>General</u></b></h4>
+                    <p>ความละเอียดสูงสุด : 7680 x 4320</p>
+                    <p>Bus Width : 192 bit</p>
+                    <p>DirectX : 12 Ultimate</p>
+                    <p>รองรับ Cross Fire/SLI : No</p>
+                    <h4><b><u>Warranty</u></b></h4>
+                    <p>การรับประกัน : 3 Years</p>
+                </div>
+            </div>
+        </div>
+        <div class="body-containerH--area body-containerH-sidePDDT--occupied">
+            <div class="reviewStarPD-title" style="font-size: 30px;">ดาวที่ได้รับ</div>
+            <hr>
+            <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped" style="width: 100%">คุณภาพสินค้า</div>
+            </div>
+            <div class="progress" role="progressbar" aria-label="Success striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-striped bg-success" style="width: 90%">การจัดส่ง</div>
+            </div>
+        </div>
+        <div class="body-containerH--area body-containerH-customers--occupied">
+            <div class="customerPD-title" style="font-size: 30px;">รีวิวสินค้า</div>
+            <hr>
+            <div class="customerPD--area">
+                <div class="customerPD-pic">
+                    <img src="/source/rabbitCust.png" style="width: 100px; height: 100px;">
+                </div>
+                <div class="customerPD-user" >
+                    RabbitSayhi
+                </div>
+                <div class="customerPD-date" >
+                    20-10-2023
+                </div>
+                <div class="customerPD-star" >
+                    <span>
+                        <img src="source/icon-star.png">
+                        <img src="source/icon-star.png">
+                        <img src="source/icon-star.png">
+                        <img src="source/icon-star.png">
+                    (4.0)
+                    </span>
+                </div>
+                <hr>
+                <div class="customerPD-comment" >
+                    <p> สินค้าตัวนี้ซื้อมาตอนที่มีส่วนลด ทำให้ราคาถูกกว่าร้านอื่นๆ</p>
+                    <p> การให้บริการดีมากๆๆเลย</p>
+                    <p> สินค้ามีความจัดส่งรวดเร็ว</p>
+                    <p> แพ็คสินค้ามาอย่างแน่นหนา มีกันกระแทกให้ด้วย</p>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
